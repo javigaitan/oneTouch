@@ -7,11 +7,7 @@
 @import url('fontawesome-all.min.css');
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
-/*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 // Breakpoints.
 
@@ -163,7 +159,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
-		font-weight: _font(weight);
+		font-weight: _font(weight) !important;
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.25) 0;
 
@@ -526,7 +522,7 @@
 				box-shadow: 0 0 0 1px _palette(accent2, bg);
 			}
 		}
-	}
+	
 
 	input[type="checkbox"] {
 		& + label {
@@ -1155,14 +1151,14 @@
 		z-index: 10000;
 
 		h1 {
-			color: inherit;
-			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
+			color: inherit !important;
+			height: inherit !important;
+			left: 1.25em !important;
+			line-height: inherit !important;
 			margin: 0;
 			padding: 0;
-			position: absolute;
-			top: 0;
+			position: absolute !important;
+			top: 0 !important;;
 
 			a {
 				color: _palette(header, fg-bold);
@@ -1372,7 +1368,7 @@
 	#banner {
 		background-attachment:	scroll,							fixed;
 		background-color:		#666;
-		background-image:		url('images/overlay.png'),		url('../../images/banner.jpg');
+		background-image:		url('images/Portada-Blog_StudyOnline-1024x536.jpg'),		url('../../images/Portada-Blog_StudyOnline-1024x536.jpg');
 		background-position:	top left,						center center;
 		background-repeat:		repeat,							no-repeat;
 		background-size:		auto,							cover;
