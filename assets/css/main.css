@@ -2099,8 +2099,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #00FFFF;
+			box-shadow: 0 0 0 2px #00FFFF;
 		}
 
 	select {
@@ -2921,8 +2921,8 @@
 	}
 
 	#header {
-		background: #444;
-		color: #bbb;
+		background: #7D5FFF;
+		color: white;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2990,7 +2990,7 @@
 					}
 
 						#header nav > ul > li a:not(.button).icon:before {
-							color: #999;
+							color: white;
 							margin-right: 0.5em;
 						}
 
@@ -3012,7 +3012,7 @@
 		#header input[type="button"],
 		#header .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #999;
+			box-shadow: inset 0 0 0 2px white;
 			color: #fff;
 		}
 
@@ -3119,7 +3119,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #AA52FF;
 				color: #ffffff;
 			}
 
@@ -3154,6 +3154,10 @@
 
 /* Banner */
 
+.titlePrincipal{
+	display: none;
+}
+
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #7D5FFF
@@ -3163,7 +3167,7 @@
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 12em 0 28em 0;
 		text-align: center;
 	}
 
@@ -3374,7 +3378,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 10em 0 18em 0;
+				padding: 3em 0 15em 0;
 			}
 
 	}
@@ -3487,6 +3491,8 @@
 			}
 
 		/* Banner */
+
+		
 
 		/* Nav */
 
@@ -3755,6 +3761,13 @@
 					}
 
 		/* Banner */
+        .titlePrincipal{
+			display: contents;
+			
+		}
+		.logoIndexImg{
+			display: none;
+		}
 
 			#banner {
 				padding: 4em 0;
@@ -3980,3 +3993,17 @@
 	  .carrousel .punto.activo {
 		background-color: #7D5FFF;
 	  }
+
+
+	  .logoIndex{
+
+		display:contents;
+		justify-content: center;
+	}
+	.logoIndexImg{
+		
+		width: auto;
+		height: auto;
+		max-width: 500px;
+		max-height: 500px;
+	}
