@@ -3431,6 +3431,10 @@
 
 	@media screen and (max-width: 840px) {
 
+		.listoNone{
+			display: none;
+		}
+
 		/* Basic */
 
 			html, body {
@@ -4006,4 +4010,12 @@
 		height: auto;
 		max-width: 500px;
 		max-height: 500px;
+	}
+
+	.titlesSecond{
+		display: flex;
+		justify-content:center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		
 	}
